@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: Betha;
+    src: url('../Portfolio/Betha\ Font/Betha');
+    font-family: QBone;
+    src:url('../Portfolio/qb-one/BoxTube\ Labs\ -\ QB\ One\ Bold\ Condensed.ttf');
+}
+body {
+    padding:0;
+    margin:0;
+    background-color: black;
+    color: white;
+    overflow-x:hidden;
+    font-family: Roboto;
+}
+
+.topbar{
+    width : vw;
+    height : 15vh;
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    width: 35%;
+    font-family: Betha , sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    align-content: center;
+}
+.menu {
+    width:65%;
+    align-content: center;
+    margin:0 auto;
+    font-family:Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.menu nav li{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+
+}
+.menu nav li ul a{ 
+    padding:5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.homepg {
+    height:85vh;
+    width:100%;
+    display:flex;
+    flex-direction: row-reverse;
+    background-image: url(../Portfolio/images/Group\ 24.png);
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: none;
+    
+}
+.homepg .content{
+    width:65%;
+    align-content: center;
+    font-family: Roboto;
+    font-weight: 500;
+    padding-left:10vw;
+}
+.content h2{
+    font-family: QBone;
+    font-size: 36px;
+    margin:0;
+}
+.content h2:first-of-type{
+    font-size: 76px;
+    color: #51FEFC;  
+}
+.content p {
+    font-size: 28px;
+    stroke: black 2px;
+    margin:0;
+}
+.homepg .content p:first-of-type{
+    font-size: 36px;
+}
+.heroimg{
+    width:55%;
+    align-content: center;
+    padding-left: 30px;
+}
+.heroimg img{
+    width:550px;
+    height:550px;
+}
+.homepg button {
+    width:100px;
+    height:40px;
+    background-color: #51FEFC;
+    color:black;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+.homepg button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 600;
+    color: black;
+
+}
+
+
+
+
+
+/* ABOUT PAGE */
+
+.aboutpg {
+    width:vw;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+}
+.heroimg2{
+    width:50%;
+    height:50%;
+    padding:22vh 5vw;
+}
+.aboutpg .content h1{
+    /* text-align: center; */
+    font-size: 3rem;
+    color:#51FEFC;
+    font-family: QBone;
+}
+.aboutpg .content{
+    width:50vw;
+    padding-right: 25px;
+    align-content: center;
+    
+}
+.aboutpg .content p {
+    font-family: Roboto;
+    font-size:24px;
+}
+.aboutpg .content button {
+    color: black;
+    background-color: #51FEFC;
+    border-radius: 25px;
+    margin-top: 5vh;
+    padding: 10px 20px;
+}
+.aboutpg .content button a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 600;
+   
+}
+
+
+/* SKILLS PAGE */
+
+.skillpg{
+    width:100vw;
+    height:vh;
+}
+.skillpg h1 {
+    margin:0;
+    height:30vh;
+    color:#51FEFC;
+    text-align: center;
+    font-size: 3rem;
+    font-family: QBone;
+    align-content: end;
+}
+.skillpg .skillset {
+    width:100vw;
+    height:70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:0;
+    text-align: center;
+    justify-items: center;
+}
+.content1 , .content2 ,.content3 ,.content4 { 
+    align-content: center;
+}
+
+.skillpg .skillimg {
+    width:15vw;
+    height:30vh;
+    border:#51FEFC 3px solid;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    align-content: center;
+    text-align: center;
+    
+}
+.skillimg img {
+    width: 100px;
+    height : 100px;
+}
+.skillname{
+    width:15vw;
+    height:10vh;
+    border:#51FEFC 3px solid;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-transform: uppercase;
+    align-content: center;
+}
+.skillset .skillname p {
+   font-size: 1.5rem;
+   text-align: center;
+   margin:0;
+   font-family: QBone;
+}
+.skillset .skillname p:first-of-type{
+    justify-content: center;
+}
+.skill1:hover{
+    background-color: black;
+    border:0;
+    background-image: url(/Portfolio//images/Rectangle\ 15.png);
+}
+
+/* PROJECT PAGE */
+
+.projectpg{
+    width:100vw;
+    height:100vh;
+}
+.projectpg h1 {
+    text-align: center;
+    height:30vh; 
+    margin:0;
+    font-size: 3rem;
+    font-family: QBone;
+    align-content: end;
+    color:#51FEFC;
+}
+.projectpg .main {
+    height:70vh;
+    display:flex;
+    flex-direction: row;
+
+}
+.carousel {
+    display:flex;
+    flex-direction: row;
+    width:34.75vw;
+    margin:auto;
+    overflow: hidden;
+    border:#51FEFC solid 3px;
+    border-radius: 25px;
+    
+}
+.carouselitem {
+    align-content: center;
+}
+.projectimg img{
+    width:34.7vw;
+
+}
+.carouselitem h2 {
+    text-align: center;
+    font-family: QBone;
+}
+.carouselitem .description,.description .topic , .description .tool {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.description img {
+    height:50px;
+    width:50px;
+    align-content: center;
+   
+}
+.description p {
+    font-size: 24px;
+    margin:0;
+    padding-left: 5px;
+    font-weight: 400;
+    font-family: Roboto;
+    align-content: center;
+}
+
+.carousel-btn1 , .carousel-btn2 {
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    margin:auto;
+    background-color: #51FEFC;
+    font-size: 48px;
+}
+
+/* CERTIFICATION PAGE */
+
+.certificatepg {
+    width:100vw;
+    height:100vh;
+
+}
+.certificatepg h1 {
+    text-align: center;
+    height:20vh;
+    margin:0;
+    align-content: end;
+    font-family: QBone;
+    font-size: 3rem;
+    color:#51FEFC;
+}
+.maincontent{
+    height:70vh;
+    display: flex;
+    flex-direction: row;
+    margin:5vh 5vw;
+    overflow: hidden;
+}
+.titles{
+    width:45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+.maincontent .titles button {
+    width:70%;
+    height:8%;
+    margin:0 auto;
+    padding:auto 0;
+    font-size: 2rem;
+    color: #51FEFC;
+    background-color: #1C1C1C;
+    border-radius : 15px;
+    border-color: #51FEFC;
+
+}
+
+
+.certificatepg .descriptions{
+    width:65vw;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1C1C1C;
+    border-radius: 25px;
+   
+}
+.certificatepg p {
+    margin:20px;
+    text-wrap: wrap;
+    font-size: 24px;
+}
+.descriptions img {
+    height:200px;
+    width:300px;
+}
+.descriptions button {
+    /* margin-top:20px; */
+    background-color: #51FEFC;
+    font-size: 18px;
+    padding:auto;
+    width:100px;
+    height:40px;
+    border-radius: 35px;
+    
+}
+.descriptions button a {
+    text-decoration: none;
+    font-weight: 600;
+    color:black;
+}
+.descriptions .coursecontent {
+    display: flex;
+    flex-direction: row;
+}
+.course1 , .course2{
+    width:50%;
+    justify-content: center;
+}
+
+
+
+/* CONTACT */
+.contactpg {
+    width:100vw;
+    height:100vh;
+    align-content: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: Roboto;
+}
+.contactpg h1 {
+    height:20vh;
+    text-align: center;
+    font-family: QBone;
+    font-size: 3rem;
+    color:#51FEFC;
+    align-content: end;
+}
+.contactpg .maincontents {
+    height :60vh;
+    
+}
+.contactpg p {
+    text-align: center;
+    margin:0;
+}
+.contactpg nav li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 25%;
+}
+.contactpg nav li ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+.contactpg a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+.contactpg img {
+    width:100px;
+    height:100x;
+} 
+ .contactpg .mailme {
+    text-align: center;
+    padding-top: 50px;
+    
+ }
+.mailme a {
+    display: flex;
+    justify-content: center;
+}

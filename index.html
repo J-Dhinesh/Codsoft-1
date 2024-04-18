@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/Portfolio/index.css">
+    <script src="/Portfolio/index.js" defer></script>
+    <link rel="icon" href="images/portfolio.png">
+</head>
+<body>
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="logo">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <li>
+                    <ul><a href="#" onclick="scrollToSection('section1')">Home</a></ul>
+                    <ul><a href="#" onclick="scrollToSection('section2')">About</a></ul>
+                    <ul><a href="#" onclick="scrollToSection('section3')">Service</a></ul>
+                    <ul><a href="#" onclick="scrollToSection('section4')">Projects</a></ul>
+                    <ul><a href="#" onclick="scrollToSection('section5')">Certifications</a></ul>
+                    <ul><a href="#" onclick="scrollToSection('section6')">Contact</a></ul>
+                </li>
+            </nav>
+        </div>
+    </div>
+
+
+<!-- HOME -->
+
+    <div class="homepg" id="section1">
+        <!-- <div class="bg"> 
+            <img src="../Portfolio/images/cropped-1440-900-76256.jpg" alt="background-img">
+            <div> -->
+            <div class="heroimg">
+                <img src="images/Hero Image.png" alt="me">
+            </div>
+            <div class="content">
+                <p>Hi,I am</p>
+                <h2>Dhinesh&nbsp;J</h2>
+                <h2>Designer + Developer</h2>
+                <p>Beautiful design has the power to captivate audiences and drive business growth. Specializing in creating stunning designs that transform businesses worldwide.</p>
+                <button><a href="#">HIRE ME</a></button>
+            </div>
+    </div>
+
+
+<!-- ABOUT -->
+    <div class="aboutpg" id="section2">
+        <div class="heroimg2">
+            <img src="images/Group 23.png">
+        </div>
+        <div class="content">
+            <h1>About</h1>
+            <p>Im a enthusiastic learner who have great interest in coding.<br>
+            For the past few year I have been honing my knowledge in UI/UX design and development.<br><br>
+            Apart from designing and developing I possess knowledge related to my ECE department<br>I have basic knowledge in FPGAs , MATLAB , Verilog and Boards like Arduino and Raspberry pi.</p>
+            <button><a href="../Portfolio/CV.pdf" download>DOWNLOAD CV</a></button>
+        </div>
+    </div>
+
+
+<!-- Skills -->
+    <div class="skillpg" id="section3">
+        <h1>SKILLS</h1>
+        <div class="skillset">
+            <div class="content1">
+                <div class="skill1">
+                    <div class="skillimg">
+                        <img src="images/UX-logo.png"> 
+                    </div>
+                    <div class="skillname">
+                        <p>UI / UX Design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="skillimg">
+                    <img src="images/frontendlogo.png"> 
+                </div>
+                <div class="skillname">
+                    <p>Front End Development</p>
+                </div>
+            </div> 
+            <div class="content3">
+                <div class="skillimg">
+                    <img src="images/arduinologo.png"> 
+                </div>
+                <div class="skillname">
+                    <p>Arduino<br>Raspberry</p>
+                </div>
+            </div> 
+            <div class="content4">
+                <div class="skillimg">
+                    <img src="images/matlob logo.png"> 
+                </div>
+                <div class="skillname">
+                    <p>Matlab<br>Verilog</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- PROJECTS -->
+   
+    <div class="projectpg" id="section4">
+        <h1>PROJECTS</h1>
+        <div class="main">
+            <button class="carousel-btn1" onclick="prevSlide()">&larr;</button>
+        <div class="carousel">
+            <div class="carouselitem">
+                <div class="projectimg">
+                    <img src="images/project/Taxiwiz.png" alt="Taxi-Wiz image" width="500" height="300">
+                </div>
+                <h2>TAXIWIX - A TAXI BOOKING APP</h2>
+                <div class="description">
+                    <div class="topic">
+                        <img src="images/icon-park_topic.png">  
+                        <p>UI/UX Design</p> 
+                    </div>
+                    <div class="tool">
+                        <img src="images/carbon_tool-kit.png">
+                        <p> Figma</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carouselitem">
+                <div class="projectimg">
+                    <img src="images/project/Pulse Oximeter.jpg" alt="Pulse Oximeter Image" width="500" height="300">
+                </div>
+                <h2>PULSE OXIMETER USING ARDUINO</h2>
+                <div class="description">
+                    <div class="topic">
+                        <img src="images/icon-park_topic.png">  
+                        <p>Electronic Product</p> 
+                    </div>
+                    <div class="tool">
+                        <img src="images/carbon_tool-kit.png">
+                        <p>Arduino IDE</p>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="carouselitem">
+                <div class="projectimg">
+                    <img src="images/project/FMRI.png" alt="FMRI image analysis" width="500" height="300">
+                </div>
+                <h2>FMRI IMAGE ANALYSIS DURING MEDITATION</h2>
+                <div class="description">
+                    <div class="topic">
+                        <img src="images/icon-park_topic.png">  
+                        <p>Bio-Electronics</p> 
+                    </div>
+                    <div class="tool">
+                        <img src="images/carbon_tool-kit.png">
+                        <p>MATLAB</p>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="carouselitem">
+                <div class="projectimg">
+                    <img src="images/project/Smart Blind Stick using Arduino.jpeg" alt="SMART BLIND STICK project image" width="500" height="300">
+                </div>
+                <h2>SMART BLIND STICK USING ARDUINO</h2>
+                <div class="description">
+                    <div class="topic">
+                        <img src="images/icon-park_topic.png">  
+                        <p>Electronic Boards</p> 
+                    </div>
+                    <div class="tool">
+                        <img src="images/carbon_tool-kit.png">
+                        <p>Arduino IDE</p>
+                    </div>
+                 </div>
+            </div>
+        
+        </div>
+        <button class="carousel-btn2" onclick="nextSlide()">&rarr;</button>
+        </div>
+    
+   </div>
+
+
+
+    <!-- CERTIFICATION -->
+    <div class="certificatepg" id="section5">
+        <h1>CERTIFICATIONS</h1>
+        <div class="maincontent">
+            <div class="titles">
+                <button class="title1">UI / UX Design</button>
+                <button class="title2">Frontend Development</button>
+                <button class="title3">Arduino & Raspberry Pi</button>
+                <button class="title4">MATLAB & Verilog</button>
+                <button class="title5">Others</button>
+            </div>
+            <div class="descriptions" id="descriptionContainer">
+                <p>Click a button to see the description.</p>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT -->
+<div class="contactpg" id="section6">
+        <h1>CONTACT</h1>
+    <div class="maincontents">
+        <p>Don’t be shy! I love talking to peoples</p>
+        <nav>
+            <div class="frontrow">
+                <li>
+                    <ul><a href="https://www.instagram.com/jd__dhinesh_/"><img src="images/skill-icons_instagram.png">Instagram</a></ul>
+                    <ul><a href="https://www.linkedin.com/in/dhinesh-j-511098265/"><img src="images/devicon_linkedin.png" alt="">LinkedIn</a></ul>
+                    <ul><a href="https://medium.com/@jdhineshjaisankar"><img src="images/mingcute_medium-fill.png" alt="">Medium</a></ul>
+                    <ul><a href="https://github.com/J-Dhinesh"><img src="images/mdi_github.png" alt="">Github</a></ul>
+                </li>
+            </div>
+            <div class="mailme">
+                    <img src="../Portfolio/images/clarity_email-line.png">
+                    <a href="mailto:jdhineshjaisankar@gmail.com">jdhineshjaisankar@gmail.com</a>
+            </div>
+        </nav>
+    </div>
+</div>
+</body>
+</html>
